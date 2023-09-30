@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body{
+  background-color: #E8B34D;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(to bottom, #E8B34D 0%, #E85d4d 100%);
+  
+  
+}
+
+#wrapper {
+  width: 960px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.banner-contents {
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.banner-contents:hover {
+  margin-top:5.7px ;
+  margin-left: 125px;
+
+}
+
+.banner-contents a {
+  color: black; /* Change the color to your desired color */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+#welcome-message {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:cornsilk;
+  font-size: 25px;
+
+}
+
+#welcome-message2{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+
+}
+
+
+#banner-contents{
+  list-style: none;
+}
+
+.home-page-picture{
+  height: auto;
+  width: auto;
+  
+}
+
+/* Initial state of the home page picture */
+.home-page-picture {
+  /* Add any other styles you need */
+  transition: transform 0.3s; /* Add a transition for smooth animation */
+}
+
+/* Apply the transformation on hover */
+.home-page-picture:hover {
+  transform: translate(10px, -10px); /* Adjust the values as needed for the desired movement */
+}
+
+
+#banner{
+  background-color: #F2A950;
+  height: 50px;
+}
+
+#home-page {
+  background-color: #DB8A53;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  background: linear-gradient(to bottom, #E8B34D 0%, #E85d4d 100%);
+
+
+  
+}
+
+#about-page{
+  background-color: #E85d4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(315deg, #E8B34D,#F27950,#E85d4d)
+  
+}
+
+
+
+/* Initial state of the Welcome Messages */
+#welcome-message,
+#welcome-message2 {
+  /* Add any other styles you need */
+  transition: transform 0.3s; /* Add a transition for smooth animation */
+}
+
+/* Apply the transformation on hover */
+#welcome-message:hover,
+#welcome-message2:hover {
+  transform: translate(10px, -10px); /* Adjust the values as needed for the desired movement */
+}
+
+
+.about-picture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%; /* Set border-radius to 50% for a perfect circle */
+  transition: 0.3s;
+}
+
+.about-picture:hover {
+  transform: translate(10px, -10px);
+}
+
+#about-title {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+  font-size:35px;
+}
+
+#introduction-title {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+  font-size: 35px;
+}
+
+#introduction {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+  text-align: center;
+}
+
+#projects-page{
+  background-color: #F27950;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects-page-header {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+  font-size: 30px;
+}
+
+#projects-page-paragraph {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+}
+
+#contact-page-title {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:bisque;
+  font-size: 30px;
+}
+
+#contact-page {
+  background-color: #F2A950;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-design {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
+  color:black;
+  font-size: px;
+}
+
+#submit-button input {
+  margin-left: 120px;
+  background-color: #F27950;
+  margin-top: 5px;
+  padding-left: 2.5px;
+  padding-right:2.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 1000px;
+  cursor: pointer;
+}

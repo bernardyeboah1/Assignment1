@@ -3,26 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <title>Assignment 1</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
-  </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+      </head>
   <body>
     <div id="wrapper">
       <div id="banner">
         <nav>
-          <ul>
-            <li> <a href="#Home Page">Home </a></li>
-            <li> <a href="#About Page">About</a></li>
-            <li> <a href="#Projects Page">Projects</a></li>
-            <li> <a href="#Contact Page">Contact</a></li>
+          <ul id="banner-contents">
+            <li class="banner-contents"> <a href="#home-page">Home </a></li>
+            <li class="banner-contents"> <a href="#about-page">About</a></li>
+            <li class="banner-contents"> <a href="#projects-page">Projects</a></li>
+            <li class="banner-contents"> <a href="#contact-page">Contact</a></li>
           </ul>
         </nav>
       </div>
-      <div id="Home Page">
-        <h1 id="welcome message">Hello, My name is Bernard Yeboah, Welcome to my personal website!</h1>
+      <div id="home-page">
+        <h1 id="welcome-message">Bernard Yeboah, Student at Ontario Tech University</h1>
+        <p id="welcome-message2">Hello, my name is Bernard. Welcome to my personal website. Feel free to scroll around!</p>
+
+        <a id="image"><img class="home-page-picture" src="a0f72f262bb06849b89c645c8737879f-removebg-preview.png" alt="Image for homepage"></a>
+
       </div>
-      <div id="About Page">
-        <img> 
-        <a id="image1"><img src=""></a>
+      <div id="about-page">
+        <h1 id="about-title">About me!</h1>
+        <a id="image1"><img class="about-picture" src="IMG-3106.JPG" alt="about-page-picture"></a>
         <h2 id="introduction-title">Get to know more about me!</h2>
         <p id="introduction"> Hey there, My name is Bernard Yeboah, I'm 19 years old, and 
           I'm currently studying Networking and Information Technology Security at Ontario Tech University in Oshawa Ontario.
@@ -30,16 +37,52 @@
           After University, I aspire to puruse a career in Cybersecurity as an Information Security Analyst.
         </p>
         <video id="introductory-video" controls>
-          <source src="" type="video/mp4">
-          <source src="" type="video/ogg">
+          <source src="on_record.mp4" type="video/mp4">
         </video>
       </div>
-      <div id="Projects Page">
+      <div id="projects-page">
+        <h2 id="projects-page-header">Projects</h2>
+        <p id="projects-page-paragraph">Below are a few Python assignments I created during my first year
+          in my Introduction to Programming class! Click below to check them out.
+        </p>
+        <ul>
+          <li><a href="final_project_unreleased.py" target="_blank" download="">Student Ledger</a></li>
+          <li><a href="Assignment2_Bernard_Yeboah.py" download target="_blank">Calculator Project</a></li>
+        </ul>
       </div>
-      <div id="Contact Page">
-        <link href="style.css" rel="styleshet" type="text/css">
+      <div id="contact-page">
+        <h1 id="contact-page-title">Contact Page</h1>
+
+        <form method="post" enctype="text/plain" name="form">
+        <p id="form-name">
+          <label for="name" class="form-design">Name :</label><br>
+          <input type="text" name="name" id="name" size="32" placeholder="Please enter your name">
+          
+        </p>
+
+        <p id="form-email">
+          <label for="email" class="form-design">Email :</label><br>
+          <input name="email" type="email" id="email" size="40" placeholder="Please enter your email">
+          
+        </p>
+
+        <p id="form-comment">
+          <label for="comments" class="form-design">Comments?</label><br>
+          <textarea name="comments" id="comments" cols="60" rows="6" placeholder="Please enter any comments you may have..."></textarea>
+          
+        <p id="submit-button"><input type="submit" value="Click here to submit the form"></p>
+       </form>
+
       </div>
       <div id="footer">
+        <nav>
+          <ul id="banner-contents">
+            <li class="banner-contents"> <a href="#home-page">Home </a></li>
+            <li class="banner-contents"> <a href="#about-page">About</a></li>
+            <li class="banner-contents"> <a href="#projects-page">Projects</a></li>
+            <li class="banner-contents"> <a href="#contact-page">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
 
