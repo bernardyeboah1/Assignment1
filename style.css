@@ -1,14 +1,16 @@
 @charset "UTF-8";
 
+
 body{
   background-color: #E8B34D;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 0px;
   margin: 0px;
   background: linear-gradient(to bottom, #E8B34D 0%, #E85d4d 100%);
-  
-  
+ 
+ 
 }
+
 
 #wrapper {
   width: 960px;
@@ -16,18 +18,23 @@ body{
   margin-left: auto;
   margin-right: auto;
 
+
 }
+
 
 .banner-contents {
   display: inline-block;
   margin-left: 120px;
 }
 
+
 .banner-contents:hover {
   margin-top:5.7px ;
   margin-left: 125px;
 
+
 }
+
 
 .banner-contents a {
   color: black; /* Change the color to your desired color */
@@ -37,31 +44,40 @@ body{
 }
 
 
+
+
 #welcome-message {
   font-family: 'Kanit', sans-serif;
   font-family: 'Playfair Display', serif;
   color:cornsilk;
   font-size: 25px;
 
+
 }
+
 
 #welcome-message2{
   font-family: 'Kanit', sans-serif;
   font-family: 'Playfair Display', serif;
   color:bisque;
 
+
 }
+
+
 
 
 #banner-contents{
   list-style: none;
 }
 
+
 .home-page-picture{
   height: auto;
   width: auto;
-  
+ 
 }
+
 
 /* Initial state of the home page picture */
 .home-page-picture {
@@ -69,16 +85,20 @@ body{
   transition: transform 0.3s; /* Add a transition for smooth animation */
 }
 
+
 /* Apply the transformation on hover */
 .home-page-picture:hover {
   transform: translate(10px, -10px); /* Adjust the values as needed for the desired movement */
 }
 
 
+
+
 #banner{
   background-color: #F2A950;
   height: 50px;
 }
+
 
 #home-page {
   background-color: #DB8A53;
@@ -89,8 +109,11 @@ body{
   background: linear-gradient(to bottom, #E8B34D 0%, #E85d4d 100%);
 
 
-  
+
+
+ 
 }
+
 
 #about-page{
   background-color: #E85d4d;
@@ -99,8 +122,11 @@ body{
   justify-content: center;
   align-items: center;
   background: linear-gradient(315deg, #E8B34D,#F27950,#E85d4d)
-  
+ 
 }
+
+
+
 
 
 
@@ -111,11 +137,14 @@ body{
   transition: transform 0.3s; /* Add a transition for smooth animation */
 }
 
+
 /* Apply the transformation on hover */
 #welcome-message:hover,
 #welcome-message2:hover {
   transform: translate(10px, -10px); /* Adjust the values as needed for the desired movement */
 }
+
+
 
 
 .about-picture {
@@ -125,9 +154,11 @@ body{
   transition: 0.3s;
 }
 
+
 .about-picture:hover {
   transform: translate(10px, -10px);
 }
+
 
 #about-title {
   font-family: 'Kanit', sans-serif;
@@ -136,6 +167,7 @@ body{
   font-size:35px;
 }
 
+
 #introduction-title {
   font-family: 'Kanit', sans-serif;
   font-family: 'Playfair Display', serif;
@@ -143,12 +175,14 @@ body{
   font-size: 35px;
 }
 
+
 #introduction {
   font-family: 'Kanit', sans-serif;
   font-family: 'Playfair Display', serif;
   color:bisque;
   text-align: center;
 }
+
 
 #projects-page{
   background-color: #F27950;
@@ -158,6 +192,7 @@ body{
   align-items: center;
 }
 
+
 #projects-page-header {
   font-family: 'Kanit', sans-serif;
   font-family: 'Playfair Display', serif;
@@ -165,11 +200,13 @@ body{
   font-size: 30px;
 }
 
+
 #projects-page-paragraph {
   font-family: 'Kanit', sans-serif;
   font-family: 'Playfair Display', serif;
   color:bisque;
 }
+
 
 #contact-page-title {
   font-family: 'Kanit', sans-serif;
@@ -177,6 +214,7 @@ body{
   color:bisque;
   font-size: 30px;
 }
+
 
 #contact-page {
   background-color: #F2A950;
@@ -186,12 +224,14 @@ body{
   align-items: center;
 }
 
+
 .form-design {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: 'Playfair Display', serif;
   color:black;
   font-size: px;
 }
+
 
 #submit-button input {
   margin-left: 120px;

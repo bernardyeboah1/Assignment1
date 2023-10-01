@@ -1,4 +1,3 @@
-/* Common styles for both desktop and tablet */
 body {
   background-color: #E8B34D;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -7,9 +6,10 @@ body {
   background: linear-gradient(to bottom, #E8B34D 0%, #E85d4d 100%);
 }
 
+
 #wrapper {
   width: 100%;
-  max-width: 800px; 
+  max-width: 800px;
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
@@ -17,11 +17,13 @@ body {
   background-color:#E85d4d ;
 }
 
+
 nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
+
 
 nav li {
   display: inline-block;
@@ -32,17 +34,19 @@ nav li {
   text-decoration: none;
 }
 
+
 @media only screen and (max-width: 959px) {
   #wrapper {
-    padding: 10px; 
+    padding: 10px;
     background-color: #E85d4d;
   }
 }
 
+
   nav li {
     display: block;
-    margin: 10px 0; 
-    padding: 10px 20px; 
+    margin: 10px 0;
+    padding: 10px 20px;
     background-color: LightBlue;
     color: black;
     text-decoration: none;
@@ -50,25 +54,61 @@ nav li {
     border-radius: 15px;
     }
 
+
   #wrapper section {
-    margin-left: 0; 
-    text-align: center; 
+    margin-left: 0;
+    text-align: center;
   }
+
 
   #wrapper section figure {
     height: 150px;
-    width: 150px; 
+    width: 150px;
   }
+
 
   #wrapper section h1,
   #wrapper section h2 {
     font-size: 20px;
-    margin-left: 0; 
+    margin-left: 0;
   }
+
 
   h1 {
     font-size: 20px;
   p {
-    font-size: 16px; 
+    font-size: 16px;
   }
 }
+
+
+ ul li {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 5px;
+  background-color: LightBlue;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
+  }
+
+
+  section figure {
+    margin-bottom: 100px;
+  }
+
+
+  ul figure {
+    margin-bottom: 120px;
+  }
+
+
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+  }
