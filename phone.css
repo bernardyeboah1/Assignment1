@@ -1,100 +1,111 @@
-/* Tablet CSS */
-body {
-  background-color: #5C5C5C;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background: linear-gradient(to bottom, #6d7171 10%, #3d3d3d 100%);
-}
+/* Phone CSS */
+@media only screen and (max-width: 480px) {
+  body {
+      background-color: #5C5C5C;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background: linear-gradient(to bottom, #6d7171 10%, #3d3d3d 100%);
+  }
 
-#wrapper section {
-  margin-left: 10%;
-}
+  #wrapper section {
+      margin-left: 10%;
+  }
 
-/* Wrapper width, height, and background */
-#wrapper {
-  width: 90%;
-  height: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background: linear-gradient(315deg, #3d3d3d 0%, #6d7171);
-}
+  /* Wrapper width, height, and background */
+  #wrapper {
+      width: 90%;
+      height: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      background: linear-gradient(315deg, #3d3d3d 0%, #6d7171);
+  }
 
-/* Style nav links */
-section nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  list-style: none;
-  text-decoration: none;
-  background-color: #2E75B6;
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  cursor: pointer; /* Add cursor pointer for clickable effect */
-}
+  /* Style nav links */
+  section nav ul li {
+      display: inline-block;
+      margin-left: 20px;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      list-style: none;
+      text-decoration: none;
+      background-color: #2E75B6;
+      border-radius: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      cursor: pointer; /* Add cursor pointer for clickable effect */
+  }
 
-/* Home page style */
-#wrapper section h1 {
-  margin-left: 5%;
-  font-size: 28px;
-}
+    /* Style nav text */
 
-/* Style h2 headings */
-#wrapper section h2 {
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Playfair Display', serif;
-  color: #ff1e00;
-  font-size: 28px;
-}
+  section nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
 
-/* Style h1 headings */
-h1 {
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Playfair Display', serif;
-  color: #ff1e00;
-  font-size: 18px;
-  margin-right: 10%;
-}
+  /* Home page style */
+  #wrapper section h1 {
+      margin-left: 5%;
+      font-size: 28px;
+  }
 
-/* Style paragraphs */
-p {
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Playfair Display', serif;
-  color: #ff1e00;
-  margin-left: auto;
-}
+  /* Style h2 headings */
+  #wrapper section h2 {
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Playfair Display', serif;
+      color: #ff1e00;
+      font-size: 28px;
+  }
 
-/* Style images */
-section img {
-  height: 180px;
-  width: auto;
-  border-radius: 20px;
-}
+  /* Style h1 headings */
+  h1 {
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Playfair Display', serif;
+      color: #ff1e00;
+      font-size: 18px;
+      margin-right: 10%;
+  }
 
-/* Style home page image */
-#wrapper section a img {
-  margin-top: 20px;
-  height: auto;
-  width: 250px;
-  margin-left: 5%;
-}
+  /* Style paragraphs */
+  p {
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Playfair Display', serif;
+      color: #ff1e00;
+      margin-left: auto;
+  }
 
-/* Style footer */
-footer p {
-  text-align: center;
-}
+  /* Style images */
+  section img {
+      height: 180px;
+      width: auto;
+      border-radius: 20px;
+  }
 
-/* Style h5 headings */
-#wrapper section h5 {
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Playfair Display', serif;
-  color: #ff1e00;
-  margin-bottom: 60px;
-  text-align: center;
-  margin-right: 5%;
+  /* Style home page image */
+  #wrapper section a img {
+      margin-top: 20px;
+      height: auto;
+      width: 250px;
+      margin-left: 5%;
+  }
+
+  /* Style footer */
+  footer p {
+      text-align: center;
+  }
+
+  /* Style h5 headings */
+  #wrapper section h5 {
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Playfair Display', serif;
+      color: #ff1e00;
+      margin-bottom: 60px;
+      text-align: center;
+      margin-right: 5%;
+  }
 }
 
 
