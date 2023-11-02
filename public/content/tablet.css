@@ -16,7 +16,9 @@
     font-family: 'Oswald', serif;
     color:  white;
     transition: 0.3s;
-    margin-left: 300px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
   }
 
   /* Wrapper width, height, and background */
